@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="mobi.monaca.plugins.WebIntent"
+    version="1.0.0">
+
+    <name>WebIntent</name>
+	<description>WebIntent</description>
+    <engines>
+        <engine name="cordova" version=">=2.9.0" />
+    </engines>
+    <license>Asial</license>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="WebIntent">
+                <param name="android-package" value="mobi.monaca.framework.plugin.WebIntent"/>
+            </feature>
+        </config-file>
+    </platform>
+</plugin>
