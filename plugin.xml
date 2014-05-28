@@ -15,11 +15,15 @@
         <clobbers target="plugins.webintent" />
     </js-module>
 
+    <!-- android -->
     <platform name="android">
-        <config-file target="config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="WebIntent">
                 <param name="android-package" value="mobi.monaca.framework.plugin.WebIntent"/>
             </feature>
         </config-file>
+        
+        <source-file src="src/android/WebIntent.java" target-dir="src/mobi/monaca/framework/plugin" />
+
     </platform>
 </plugin>
