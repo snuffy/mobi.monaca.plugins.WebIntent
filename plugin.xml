@@ -5,7 +5,9 @@
     version="1.0.0">
 
     <name>WebIntent</name>
-	<description>WebIntent</description>
+	<description>
+        This plugin allows starting another application on the device
+    </description>
     <engines>
         <engine name="cordova" version=">=2.9.0" />
     </engines>
