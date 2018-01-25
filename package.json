@@ -1,5 +1,5 @@
 {
-  "name": "mobi.monaca.plugins.WebIntent",
+  "name": "monaca-plugin-webintent",
   "version": "1.0.0",
   "description": "This plugin allows starting another application on the device",
   "author": "Monaca Team",
@@ -7,4 +7,4 @@
   "publishConfig": {
     "registry": "http://registry.monaca.io:4873"
   }
-}  
+}
